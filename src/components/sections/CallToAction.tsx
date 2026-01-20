@@ -48,7 +48,7 @@ export function CallToAction() {
       >
         <motion.h2
           variants={cardVariants}
-          className="font-serif text-4xl md:text-5xl font-semibold mb-6 max-w-2xl mx-auto"
+          className="font-serif text-4xl md:text-5xl font-semibold mb-6 max-w-2xl mx-auto text-background"
         >
           Ready to Transform Your Space?
         </motion.h2>

@@ -201,7 +201,7 @@ export function Navbar() {
                         ? "bg-accent text-accent-foreground hover:bg-accent px-4 py-2"
                         : isActive
                         ? "text-[#0D2893] font-bold"
-                        : "text-muted-foreground hover:text-background"
+                          : "text-muted-foreground hover:text-foreground"
                     }`}
                   >
                     {link.label}

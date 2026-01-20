@@ -46,7 +46,7 @@ export function Hero() {
           alt="Modern interior design"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-foreground/95 via-foreground/50 to-foreground/10" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/70 to-background/10" />
       </div>
 
       {/* Content */}
@@ -67,7 +67,7 @@ export function Hero() {
 
           <motion.h1
             variants={cardVariants}
-            className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight mb-6 text-background"
+            className="font-serif text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight mb-6 text-foreground"
           >
             Belisitas
             <br />

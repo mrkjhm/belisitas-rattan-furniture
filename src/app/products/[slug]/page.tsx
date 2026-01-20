@@ -1,5 +1,5 @@
-import ProductDetailPage from "@/pages/ProductDetail";
+import ProductDetailClient from "./ProductDetailClient";
 
 export default function Page() {
-  return <ProductDetailPage />;
+  return <ProductDetailClient />;
 }

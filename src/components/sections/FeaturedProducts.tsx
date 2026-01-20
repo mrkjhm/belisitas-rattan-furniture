@@ -80,7 +80,7 @@ export function FeaturedProducts() {
             </motion.p>
             <motion.h2
               variants={cardVariants}
-              className="font-serif text-4xl md:text-5xl font-semibold text-background"
+              className="font-serif text-4xl md:text-5xl font-semibold text-foreground"
             >
               Featured Collection
             </motion.h2>

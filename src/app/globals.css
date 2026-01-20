@@ -7,8 +7,8 @@
 @layer base {
   :root {
     /* Core palette - warm neutrals with terracotta accent */
-    --background: 40 20% 98%;
-    --foreground: 30 10% 15%;
+    --foreground: 40 20% 98%;
+    --background: 30 10% 15%;
 
     --card: 40 15% 96%;
     --card-foreground: 30 10% 15%;

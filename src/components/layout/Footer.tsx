@@ -167,7 +167,7 @@ export function Footer() {
         {/* Bottom */}
         <div className="mt-16 pt-8 border-t border-gray-200 flex justify-center items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            Copyright © 2025 by Belisitas Handicraft Philippines
+            Copyright © 2025 by Belisitas Rattan Furniture
           </p>
         </div>
       </div>

@@ -69,7 +69,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-foreground border-t border-gray-200">
+    <footer className="bg-[#efebe7] border-t border-gray-200">
       <div className="container mx-auto px-6 pt-16 pb-10">
         <motion.div
           ref={footerRef}

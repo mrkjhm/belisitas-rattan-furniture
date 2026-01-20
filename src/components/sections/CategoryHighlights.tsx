@@ -82,7 +82,7 @@ export function CategoryHighlights() {
           </motion.p>
           <motion.h2
             variants={cardVariants}
-            className="font-serif text-4xl md:text-5xl font-semibold text-foreground"
+            className="font-serif text-4xl md:text-5xl font-semibold text-background"
           >
             Style Your Space, Naturally
           </motion.h2>
@@ -112,17 +112,17 @@ export function CategoryHighlights() {
                 />
 
                 {/* Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-foreground/80 via-foreground/20 to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
 
                 {/* Content */}
                 <div className="absolute inset-0 p-8 flex flex-col justify-end">
-                  <h3 className="font-serif text-2xl font-semibold text-background mb-2">
+                  <h3 className="font-serif text-2xl font-semibold text-foreground mb-2">
                     {category.name}
                   </h3>
-                  <p className="text-background/80 mb-4">
+                  <p className="text-foreground/80 mb-4">
                     {category.description}
                   </p>
-                  <div className="flex items-center text-background group-hover:text-accent transition-colors">
+                  <div className="flex items-center text-foreground group-hover:text-accent transition-colors">
                     <span className="text-sm font-medium">Explore</span>
                     <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </div>

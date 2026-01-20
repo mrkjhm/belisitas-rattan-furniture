@@ -249,7 +249,7 @@ const handleSearchChange = (value: string) => {
                 transition={{ duration: 0.7 }}
               >
                 <Select value={sortBy} onValueChange={(v) => setSortBy(v as SortOption)}>
-                  <SelectTrigger className="w-full sm:w-40 bg-foreground border-transparent text-background">
+                  <SelectTrigger className="w-full sm:w-40 bg-[#efebe7] border-transparent text-background">
                     <SlidersHorizontal className="w-4 h-4 mr-2" />
                     <SelectValue placeholder="Sort by" />
                   </SelectTrigger>

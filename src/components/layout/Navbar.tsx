@@ -201,7 +201,7 @@ export function Navbar() {
                         ? "bg-accent text-accent-foreground hover:bg-accent px-4 py-2"
                         : isActive
                         ? "text-[#0D2893] font-bold"
-                          : "text-muted-foreground hover:text-foreground"
+                          : "text-muted-foreground hover:text-background"
                     }`}
                   >
                     {link.label}
@@ -321,7 +321,7 @@ export function Navbar() {
               block py-3 px-4 rounded-lg font-medium transition-colors
               ${
                 isContact && isActive
-                  ? "bg-primary text-primary-foreground"
+                        ? "bg-[#0D2893] text-primary-foreground"
                   : isContact
                   ? "bg-accent text-accent-foreground"
                   : isActive

@@ -134,7 +134,7 @@ const Contact = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="py-16 md:py-24 bg-foreground">
+      <section className="py-16 md:py-24 bg-[#efebe7]">
         <div className="container mx-auto px-6">
           <motion.div
             ref={headerRef}
@@ -184,7 +184,7 @@ const Contact = () => {
                       onChange={handleChange}
                       placeholder="Your name"
                       required
-                      className="bg-foreground border-transparent focus:border-accent"
+                      className="bg-[#efebe7] border-transparent focus:border-accent"
                     />
                   </div>
                   <div className="space-y-2">
@@ -197,7 +197,7 @@ const Contact = () => {
                       onChange={handleChange}
                       placeholder="your@email.com"
                       required
-                      className="bg-foreground border-transparent focus:border-accent"
+                      className="bg-[#efebe7] border-transparent focus:border-accent"
                     />
                   </div>
                 </motion.div>
@@ -211,7 +211,7 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder="How can we help?"
                     required
-                    className="bg-foreground border-transparent focus:border-accent"
+                    className="bg-[#efebe7] border-transparent focus:border-accent"
                   />
                 </motion.div>
 
@@ -225,7 +225,7 @@ const Contact = () => {
                     placeholder="Tell us more about your inquiry..."
                     rows={6}
                     required
-                    className="bg-foreground border-transparent focus:border-accent resize-none"
+                    className="bg-[#efebe7] border-transparent focus:border-accent resize-none"
                   />
                 </motion.div>
                 <motion.div variants={cardVariants}>
@@ -263,7 +263,7 @@ const Contact = () => {
               <div className="space-y-8 text-background">
                 {/* Address */}
                 <motion.div variants={cardVariants} className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bg-[#efebe7] flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-5 h-5 text-background" />
                   </div>
                   <div>
@@ -278,7 +278,7 @@ const Contact = () => {
 
                 {/* Phone */}
                 <motion.div variants={cardVariants} className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bg-[#efebe7] flex items-center justify-center flex-shrink-0">
                     <Phone className="w-5 h-5 text-background" />
                   </div>
                   <div>
@@ -289,7 +289,7 @@ const Contact = () => {
 
                 {/* Email */}
                 <motion.div variants={cardVariants} className="flex gap-4">
-                  <div className="w-12 h-12 rounded-full bg-foreground flex items-center justify-center flex-shrink-0">
+                  <div className="w-12 h-12 rounded-full bg-[#efebe7] flex items-center justify-center flex-shrink-0">
                     <Mail className="w-5 h-5 text-background" />
                   </div>
                   <div>

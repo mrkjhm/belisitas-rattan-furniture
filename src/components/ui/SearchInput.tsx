@@ -20,7 +20,7 @@ export function SearchInput({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder={placeholder}
-        className="pl-10 pr-10 bg-foreground border-transparent focus:border-foreground"
+        className="pl-10 pr-10 bg-[#efebe7] border-transparent focus:border-foreground"
       />
       {value && (
         <button

@@ -114,7 +114,7 @@ const About = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="py-16 md:py-24 bg-foreground overflow-x-hidden">
+      <section className="py-16 md:py-24 bg-[#efebe7] overflow-x-hidden">
         <div className="container mx-auto px-6">
           <motion.div
             ref={headerRef}
